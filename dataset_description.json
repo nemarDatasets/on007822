@@ -1,0 +1,14 @@
+{
+  "Name": "Prisoner's Dilemma EEG Dataset",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "raw",
+  "Authors": [
+    "n/a"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "convert_to_eeg_bids.py",
+      "Version": "1.0"
+    }
+  ]
+}
