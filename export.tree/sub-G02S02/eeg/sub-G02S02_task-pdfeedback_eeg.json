@@ -1,0 +1,11 @@
+{
+  "TaskName": "pdfeedback",
+  "SamplingFrequency": 300.0,
+  "PowerLineFrequency": 60,
+  "EEGReference": "unknown",
+  "EEGGround": "unknown",
+  "EEGPlacementScheme": "unknown",
+  "Manufacturer": "unknown",
+  "SoftwareFilters": "n/a",
+  "RecordingType": "epoched"
+}
