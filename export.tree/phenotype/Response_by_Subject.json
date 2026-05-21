@@ -1,0 +1,305 @@
+{
+  "participant_id": {
+    "Description": "BIDS participant identifier"
+  },
+  "PERSONAL_SUBJECT_ID": {
+    "Description": "Subject ID"
+  },
+  "PERSONAL_GLASSES": {
+    "Description": "Do you wear glasses?"
+  },
+  "PERSONAL_DRY_EYE": {
+    "Description": "Do you have dry eyes?"
+  },
+  "PERSONAL_HANDEDNESS": {
+    "Description": "Handedness"
+  },
+  "PERSONAL_AGE": {
+    "Description": "Age (years; as of 2024-06-01)"
+  },
+  "PERSONAL_GENDER": {
+    "Description": "Sex"
+  },
+  "PERSONAL_PHYSICAL_MENTAL_DISEASE": {
+    "Description": "Do you have any physical or mental illness?"
+  },
+  "PERSONAL_EYE_DISEASE": {
+    "Description": "Do you have any eye-related disease? (including dry eye)"
+  },
+  "PERSONAL_EYE_SURGERY": {
+    "Description": "Have you had any eye-related surgery? (including LASIK/LASEK)?"
+  },
+  "PERSONAL_CONTACT_LENS": {
+    "Description": "Do you wear contact lenses?"
+  },
+  "PERSONAL_GAME_THEORY_HEARD": {
+    "Description": "Have you heard of game theory?"
+  },
+  "PERSONAL_GAME_THEORY_EXPERIMENT": {
+    "Description": "Have you participated in a game-theory-related experiment?"
+  },
+  "PERSONAL_DILEMMA_DECISION_EXPERIENCE": {
+    "Description": "Have you participated in decision-making under dilemma situations?"
+  },
+  "PERSONAL_FACE_TO_FACE_EXPERIMENT": {
+    "Description": "Have you participated in an experiment involving face-to-face interaction?"
+  },
+  "PERSONAL_ACQUAINTANCE": {
+    "Description": "Are you acquainted with the other participants in your group?"
+  },
+  "PRE_SLEEP_HOURS": {
+    "Description": "How many hours did you sleep last night?"
+  },
+  "PRE_COFFEE_24H": {
+    "Description": "Did you drink coffee within the last 24 hours?"
+  },
+  "PRE_ALCOHOL_24H": {
+    "Description": "Did you drink alcohol within the last 24 hours?"
+  },
+  "PRE_SMOKING_24H": {
+    "Description": "Did you smoke within the last 24 hours?"
+  },
+  "PRE_COMPUTER_USE": {
+    "Description": "6.1 Daily computer use (hours/day)"
+  },
+  "PRE_SMARTPHONE_USE": {
+    "Description": "6.2 Daily smartphone use (hours/day)"
+  },
+  "PRE_STATE_RELAXED_TENSE": {
+    "Description": "Comfortable — Tense"
+  },
+  "PRE_STATE_INTERESTED_BORED": {
+    "Description": "Interesting — Boring"
+  },
+  "PRE_STATE_FOCUSED_UNFOCUSED": {
+    "Description": "Focused — Not focused"
+  },
+  "PRE_STATE_BODY": {
+    "Description": "Physical condition: Best — Worst/Fatigued"
+  },
+  "PRE_STATE_MENTAL": {
+    "Description": "Mental condition: Best — Worst/Fatigued"
+  },
+  "PRE_SOC_CYN_01": {
+    "Description": "To get along well in the world, it is necessary to pay attention to others' weaknesses."
+  },
+  "PRE_SOC_CYN_02": {
+    "Description": "In relationships with others, you can never be too careful."
+  },
+  "PRE_SOC_CYN_03": {
+    "Description": "People always think only of their own interests."
+  },
+  "PRE_SOC_CYN_04": {
+    "Description": "In this society, if you are not careful, others will take advantage of you."
+  },
+  "PRE_SOC_CYN_05": {
+    "Description": "In this society, there is no need to constantly worry about being deceived by others."
+  },
+  "PRE_SOC_CYN_06": {
+    "Description": "People do not trust others as much as they claim."
+  },
+  "PRE_SOC_CYN_07": {
+    "Description": "No matter what people say, deep down they dislike helping others."
+  },
+  "PRE_SOC_CYN_08": {
+    "Description": "If you assume everyone has a bad side, you will not get into trouble."
+  },
+  "PRE_SOC_CYN_09": {
+    "Description": "There are many hypocrites in this society."
+  },
+  "PRE_SOC_CYN_10": {
+    "Description": "When dealing with strangers, I remain cautious until they prove they can be trusted."
+  },
+  "PRE_SOC_CYN_11": {
+    "Description": "When someone praises you, it is because they want to get something from you."
+  },
+  "PRE_SOC_CYN_12": {
+    "Description": "Few people are convinced that lying is wrong."
+  },
+  "PRE_TRUST_01": {
+    "Description": "Most people are basically honest."
+  },
+  "PRE_TRUST_02": {
+    "Description": "Most people are trustworthy."
+  },
+  "PRE_TRUST_03": {
+    "Description": "Most people are fundamentally good and kind."
+  },
+  "PRE_TRUST_04": {
+    "Description": "I tend to trust others."
+  },
+  "PRE_TRUST_05": {
+    "Description": "Most people tend to trust other people."
+  },
+  "PRE_TRUST_06": {
+    "Description": "When most people are trusted by others, they tend to trust the other person in return."
+  },
+  "M1_STATE_RELAXED_TENSE": {
+    "Description": "Comfortable — Tense"
+  },
+  "M1_STATE_INTERESTED_BORED": {
+    "Description": "Interesting — Boring"
+  },
+  "M1_STATE_FOCUSED_UNFOCUSED": {
+    "Description": "Focused — Not focused"
+  },
+  "M1_STATE_BODY": {
+    "Description": "Physical condition: Best — Worst/Fatigued"
+  },
+  "M1_STATE_MENTAL": {
+    "Description": "Mental condition: Best — Worst/Fatigued"
+  },
+  "M1_EYE_2_1": {
+    "Description": "2.1 My eyes felt fatigued."
+  },
+  "M1_EYE_2_2": {
+    "Description": "2.2 My blinking increased."
+  },
+  "M1_EYE_2_3": {
+    "Description": "2.3 My eyes felt dry/gritty."
+  },
+  "M1_EYE_2_4": {
+    "Description": "2.4 My eyes felt bloodshot."
+  },
+  "M1_EYE_2_5": {
+    "Description": "2.5 My eyes watered during the experiment."
+  },
+  "M1_EYE_2_6": {
+    "Description": "2.6 I felt pain around my eyes."
+  },
+  "M1_PHYS_4_1": {
+    "Description": "4.1 My neck felt stiff."
+  },
+  "M1_PHYS_4_2": {
+    "Description": "4.2 My shoulders felt stiff."
+  },
+  "M1_PHYS_4_3": {
+    "Description": "4.3 My lower back felt stiff."
+  },
+  "M1_PHYS_4_4": {
+    "Description": "4.4 I felt a headache during the experiment."
+  },
+  "M1_MENTAL_5_1": {
+    "Description": "5.1 I felt spaced out."
+  },
+  "M1_MENTAL_5_2": {
+    "Description": "5.2 I felt sleepy during the experiment."
+  },
+  "M1_MENTAL_5_3": {
+    "Description": "5.3 I felt dizzy during the experiment."
+  },
+  "M1_MENTAL_5_4": {
+    "Description": "5.4 I felt irritable/edgy."
+  },
+  "M1_INTER_HONEST": {
+    "Description": "I think the other participants were honest."
+  },
+  "M1_INTER_TRUSTWORTHY": {
+    "Description": "I think the other participants were trustworthy."
+  },
+  "M1_INTER_KIND": {
+    "Description": "I think the other participants were fundamentally good and kind."
+  },
+  "M1_INTER_TRUST_OTHERS": {
+    "Description": "I think the other participants can trust others."
+  },
+  "M1_SELF_TRUST_OTHERS": {
+    "Description": "I tend to trust others."
+  },
+  "M1_RECIPROCAL_TRUST": {
+    "Description": "I think that when someone is trusted by others, they can trust the other person in return."
+  },
+  "M1_INTERACTION_GOOD": {
+    "Description": "I think interaction with the other participants went well during the experiment."
+  },
+  "M1_GAME_CONCENTRATION_EASY": {
+    "Description": "It was easy to focus on the game."
+  },
+  "M1_RESULT_SATISFACTION": {
+    "Description": "I am satisfied with my performance/results in the experiment."
+  },
+  "M2_STATE_RELAXED_TENSE": {
+    "Description": "Comfortable — Tense"
+  },
+  "M2_STATE_INTERESTED_BORED": {
+    "Description": "Interesting — Boring"
+  },
+  "M2_STATE_FOCUSED_UNFOCUSED": {
+    "Description": "Focused — Not focused"
+  },
+  "M2_STATE_BODY": {
+    "Description": "Physical condition: Best — Worst/Fatigued"
+  },
+  "M2_STATE_MENTAL": {
+    "Description": "Mental condition: Best — Worst/Fatigued"
+  },
+  "M2_EYE_2_1": {
+    "Description": "2.1 My eyes felt fatigued."
+  },
+  "M2_EYE_2_2": {
+    "Description": "2.2 My blinking increased."
+  },
+  "M2_EYE_2_3": {
+    "Description": "2.3 My eyes felt dry/gritty."
+  },
+  "M2_EYE_2_4": {
+    "Description": "2.4 My eyes felt bloodshot."
+  },
+  "M2_EYE_2_5": {
+    "Description": "2.5 My eyes watered during the experiment."
+  },
+  "M2_EYE_2_6": {
+    "Description": "2.6 I felt pain around my eyes."
+  },
+  "M2_PHYS_4_1": {
+    "Description": "4.1 My neck felt stiff."
+  },
+  "M2_PHYS_4_2": {
+    "Description": "4.2 My shoulders felt stiff."
+  },
+  "M2_PHYS_4_3": {
+    "Description": "4.3 My lower back felt stiff."
+  },
+  "M2_PHYS_4_4": {
+    "Description": "4.4 I felt a headache during the experiment."
+  },
+  "M2_MENTAL_5_1": {
+    "Description": "5.1 I felt spaced out."
+  },
+  "M2_MENTAL_5_2": {
+    "Description": "5.2 I felt sleepy during the experiment."
+  },
+  "M2_MENTAL_5_3": {
+    "Description": "5.3 I felt dizzy during the experiment."
+  },
+  "M2_MENTAL_5_4": {
+    "Description": "5.4 I felt irritable/edgy."
+  },
+  "M2_INTER_HONEST": {
+    "Description": "I think the other participants were honest."
+  },
+  "M2_INTER_TRUSTWORTHY": {
+    "Description": "I think the other participants were trustworthy."
+  },
+  "M2_INTER_KIND": {
+    "Description": "I think the other participants were fundamentally good and kind."
+  },
+  "M2_INTER_TRUST_OTHERS": {
+    "Description": "I think the other participants can trust others."
+  },
+  "M2_SELF_TRUST_OTHERS": {
+    "Description": "I tend to trust others."
+  },
+  "M2_RECIPROCAL_TRUST": {
+    "Description": "I think that when someone is trusted by others, they can trust the other person in return."
+  },
+  "M2_INTERACTION_GOOD": {
+    "Description": "I think interaction with the other participants went well during the experiment."
+  },
+  "M2_GAME_CONCENTRATION_EASY": {
+    "Description": "It was easy to focus on the game."
+  },
+  "M2_RESULT_SATISFACTION": {
+    "Description": "I am satisfied with my performance/results in the experiment."
+  }
+}
