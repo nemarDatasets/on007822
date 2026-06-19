@@ -2,17 +2,39 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Prisoner's Dilemma EEG Dataset",
+  "description": "A three-person hyperscanning EEG dataset from a prisoner's dilemma experiment containing recordings from 11 triads (33 participants total). The dataset includes EEG data during decision-making, feedback, and rest phases, with behavioral labels provided in event files. Data are organized in BIDS format with EEGLAB .set files.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "n/a": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds007822.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "hyperscanning"
+    },
+    {
+      "term": "prisoner's dilemma"
+    },
+    {
+      "term": "social interaction"
+    },
+    {
+      "term": "decision-making"
+    },
+    {
+      "term": "brain-to-brain coupling"
+    },
+    {
+      "term": "triadic interaction"
+    },
+    {
+      "term": "game theory"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on007822",
       "identifier_type": "URL",
@@ -27,51 +49,35 @@
       "identifier": "10.18112/openneuro.ds007822",
       "identifier_type": "DOI",
       "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007822.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "0.0 KB (101 files)"
   ],
   "formats": [
     ".json",
     ".md",
     ".set",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset comprises EEG recordings from a three-person hyperscanning prisoner's dilemma experiment involving 11 triads (33 participants total). The dataset includes raw EEG data collected during three task conditions: decision-making (pddecision), feedback processing (pdfeedback), and rest periods (pdrest). Behavioral labels are provided through event markers in task events.tsv files, enabling analysis of neural correlates of social decision-making and inter-brain synchronization during interactive economic games. EEG data are stored in EEGLAB .set format.",
-  "keywords": [
+  "funding_references": [
     {
-      "term": "EEG"
+      "funder_name": "Not specified"
     },
     {
-      "term": "hyperscanning"
-    },
-    {
-      "term": "prisoner's dilemma"
-    },
-    {
-      "term": "social decision-making"
-    },
-    {
-      "term": "game theory"
-    },
-    {
-      "term": "inter-brain synchronization"
-    },
-    {
-      "term": "triadic interaction"
-    },
-    {
-      "term": "EEGLAB"
-    },
-    {
-      "term": "economic game"
+      "funder_name": "Funding information not available"
     }
   ],
-  "source_hash": "0d2fa0b7528860f58516105090476d4ad6cca8905934b5f2f9631a2972f1af77"
+  "source_hash": "f9ad729e89fd327144205d0d977561429228b307ef6e91a7757ed0f412f37400"
 }
