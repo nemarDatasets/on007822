@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007822-blue)](https://doi.org/10.82901/nemar.on007822)
+
 EEG-BIDS dataset for a three-person hyperscanning EEG prisoner's dilemma experiment.
 The dataset contains 11 triads x 3 participants. Participant IDs preserve the original triad and subject slot, for example sub-G01S01, sub-G01S02, and sub-G01S03.
 
