@@ -1,27 +1,77 @@
 {
   "version": "2.0",
-  "dataset_id": "on007822",
-  "source": "openneuro",
-  "source_id": "ds007822",
+  "pipeline_stage": "enriched",
   "title": "Prisoner's Dilemma EEG Dataset",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "n/a": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007822.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007822",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007822",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007822",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.10.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset comprises EEG recordings from a three-person hyperscanning prisoner's dilemma experiment involving 11 triads (33 participants total). The dataset includes raw EEG data collected during three task conditions: decision-making (pddecision), feedback processing (pdfeedback), and rest periods (pdrest). Behavioral labels are provided through event markers in task events.tsv files, enabling analysis of neural correlates of social decision-making and inter-brain synchronization during interactive economic games. EEG data are stored in EEGLAB .set format.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "hyperscanning"
+    },
+    {
+      "term": "prisoner's dilemma"
+    },
+    {
+      "term": "social decision-making"
+    },
+    {
+      "term": "game theory"
+    },
+    {
+      "term": "inter-brain synchronization"
+    },
+    {
+      "term": "triadic interaction"
+    },
+    {
+      "term": "EEGLAB"
+    },
+    {
+      "term": "economic game"
+    }
+  ],
+  "source_hash": "0d2fa0b7528860f58516105090476d4ad6cca8905934b5f2f9631a2972f1af77"
 }
