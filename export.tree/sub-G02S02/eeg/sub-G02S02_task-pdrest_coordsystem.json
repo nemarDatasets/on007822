@@ -1,5 +1,0 @@
-{
-  "EEGCoordinateSystem": "Other",
-  "EEGCoordinateUnits": "m",
-  "EEGCoordinateSystemDescription": "Approximate electrode positions from the MNE standard_1020 montage, matched by channel label. These are template coordinates, not digitized participant-specific positions."
-}
