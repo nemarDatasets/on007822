@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Prisoner's Dilemma EEG Dataset",
-  "description": "A three-person hyperscanning EEG dataset from a prisoner's dilemma experiment containing recordings from 11 triads (33 participants total). The dataset includes EEG data during decision-making, feedback, and rest phases, with behavioral labels provided in event files. Data are organized in BIDS format with EEGLAB .set files.",
+  "description": "This dataset comprises EEG recordings from a three-person hyperscanning experiment using the prisoner's dilemma game, formatted according to BIDS standards. The dataset includes 11 triads (33 participants total) with simultaneous EEG recordings during decision-making, feedback, and rest periods. EEG data are provided in EEGLAB format (.set files) with behavioral annotations in events.tsv files, enabling investigation of neural correlates of social decision-making and inter-brain synchronization during interactive tasks. This is a BIDS-formatted version of the OpenNeuro dataset (10.18112/openneuro.ds007822.v1.0.0).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,29 +19,27 @@
       "term": "prisoner's dilemma"
     },
     {
-      "term": "social interaction"
+      "term": "social decision-making"
     },
     {
-      "term": "decision-making"
+      "term": "game theory"
     },
     {
-      "term": "brain-to-brain coupling"
+      "term": "inter-brain synchronization"
     },
     {
       "term": "triadic interaction"
     },
     {
-      "term": "game theory"
+      "term": "three-person experiment"
+    },
+    {
+      "term": "BIDS"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on007822",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007822",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -54,6 +52,22 @@
       "identifier": "10.18112/openneuro.ds007822.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007822",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Not specified"
+    },
+    {
+      "funder_name": "Funding information not available"
+    },
+    {
+      "funder_name": "No funding"
     }
   ],
   "resource_type_general": "Dataset",
@@ -62,7 +76,7 @@
     "eeg"
   ],
   "sizes": [
-    "0.0 KB (101 files)"
+    "379.1 MB (101 files)"
   ],
   "formats": [
     ".json",
@@ -70,14 +84,6 @@
     ".set",
     ".tsv",
     ".yml"
-  ],
-  "funding_references": [
-    {
-      "funder_name": "Not specified"
-    },
-    {
-      "funder_name": "Funding information not available"
-    }
   ],
   "source_hash": "f9ad729e89fd327144205d0d977561429228b307ef6e91a7757ed0f412f37400"
 }
