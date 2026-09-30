@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Prisoner's Dilemma EEG Dataset",
-  "description": "This dataset comprises EEG recordings from a three-person hyperscanning experiment using the prisoner's dilemma game, formatted according to BIDS standards. The dataset includes 11 triads (33 participants total) with simultaneous EEG recordings during decision-making, feedback, and rest periods. EEG data are provided in EEGLAB format (.set files) with behavioral annotations in events.tsv files, enabling investigation of neural correlates of social decision-making and inter-brain synchronization during interactive tasks. This is a BIDS-formatted version of the OpenNeuro dataset (10.18112/openneuro.ds007822.v1.0.0).",
+  "description": "An EEG-BIDS dataset from a three-person hyperscanning experiment in which participants played a prisoner's dilemma game. It includes 11 triads (3 participants each), with recordings across decision, feedback, and rest tasks. Behavioral labels are provided in the events files, and EEG data are stored in EEGLAB .set format.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,6 +11,10 @@
   "keywords": [
     {
       "term": "EEG"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH"
     },
     {
       "term": "hyperscanning"
@@ -22,19 +26,13 @@
       "term": "social decision-making"
     },
     {
+      "term": "group interaction"
+    },
+    {
+      "term": "cooperation"
+    },
+    {
       "term": "game theory"
-    },
-    {
-      "term": "inter-brain synchronization"
-    },
-    {
-      "term": "triadic interaction"
-    },
-    {
-      "term": "three-person experiment"
-    },
-    {
-      "term": "BIDS"
     }
   ],
   "related_identifiers": [
@@ -76,7 +74,7 @@
     "eeg"
   ],
   "sizes": [
-    "379.1 MB (101 files)"
+    "362 MB (101 files)"
   ],
   "formats": [
     ".json",
@@ -85,5 +83,6 @@
     ".tsv",
     ".yml"
   ],
+  "methods_description": "Simultaneous EEG was recorded from triads of participants performing a prisoner's dilemma game across three tasks (pddecision, pdfeedback, pdrest). Data are stored in EEGLAB .set format with behavioral labels in events.tsv files.",
   "source_hash": "f9ad729e89fd327144205d0d977561429228b307ef6e91a7757ed0f412f37400"
 }
